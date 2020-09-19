@@ -1,0 +1,8 @@
+@import "partials/variables";
+
+@mixin header-general {
+    display: flex;
+    font: {
+        family: $primaryFontFamily, $primaryFontFace;
+    }
+}
