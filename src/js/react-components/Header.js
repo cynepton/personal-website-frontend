@@ -3,19 +3,15 @@ import React, { Component } from "react";
 import NavBar from "./NavBar";
 
 class Header extends Component {
-    static propTypes = {
-
-    }
-
-    state = {
-
-    }
+    /* static propTypes = {
+        logoPath: PropTypes.string.isRequired,
+        altText: PropTypes.string.isRequired
+    } */
 
     render() {
         return (
             <header>
-                <div>
-                    <img src={this.props.logoPath} alt={this.props.altText} />
+                <div className="my-logo-box">
                 </div>
                 <NavBar />
             </header>
