@@ -24,3 +24,9 @@ yarn-error.log*
 
 # Vs code settings
 .vscode
+
+# Scripts whose necessity hasn't been determined yet
+SVGIcon.js
+
+# Third-party Dependencies
+vendor/
