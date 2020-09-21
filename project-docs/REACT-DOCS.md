@@ -1,4 +1,22 @@
+# Documentation of the React Features of the Project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Components
+
+### Header Component
+
+The header component renders the header section of the webpage for all screen sizes. It renders the brand logo and the [NavBar component](#navbar-component).
+
+#### Header Component Props
+
+### SVGIcon Component
+
+### NavBar Component
+
+The NavBar component renders the Navigation Bar of the website. For large screens, it renders the full navigation bar with the items placed in the row direction.
+
+### Rendering
 
 ## Available Scripts
 

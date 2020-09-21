@@ -1,0 +1,20 @@
+// Brand Colors
+$brand-color-purple: #EA8BDB;
+$brand-color-brown: #231F20;
+$brand-color-orange: #F96F06;
+$brand-color-white: #FFFFFF;
+
+// Fonts
+$primary-font: 'Poppins', sans-serif;
+
+//Div features
+$temp-border: 2px solid $brand-color-white;
+
+//Icon Paths
+// All paths are realtive to a root of:
+// personal-website-frontend/src/styles/sass
+// except otherwise stated
+// In production the uri's should be set to a cloud delivery platform
+
+$home-logo: "./../../media/svg/brand-logos/home-logo.svg";
+$home-logo-hover: "./../../media/svg/brand-logos/home-logo-hover.svg";

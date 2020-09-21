@@ -1,0 +1,19 @@
+@import "./variable";
+
+@mixin header-general {
+    display: flex;
+    font-family: $primary-font;
+    border: $temp-border;
+}
+
+@mixin header-large-screen {
+    @include header-general();
+}
+
+@mixin header-medium-screen {
+    @include header-general();
+}
+
+@mixin header-small-screen {
+    @include header-general();
+}
