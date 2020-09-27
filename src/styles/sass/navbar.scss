@@ -1,0 +1,16 @@
+@import "./partials/variable";
+
+#hamburger {
+    display: flex;
+    background: no-repeat url(./../../media/svg/hamburger-icon.svg);
+    height: 50px;
+    width: 50px;
+}
+
+.navbar a{
+    display: none;
+}
+.navbar a.hamburger {
+    display: block;
+    align-self: right;
+}
